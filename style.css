@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+.Poppinsheading {
+    font-family: "Poppins", serif;
+    font-size: 3.2rem;
+    font-weight: 510;
+    font-style: normal;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+#inputTask{
+    border-radius: 8px;
+    width: 25%;
+    border: 1px solid #000;
+    padding: 9px 8px;
+    font-size: 1.2rem;
+}
+
+#inputTask::placeholder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.45rem;
+}
+
+#inputBtn{
+    border-radius: 50%;
+    border: none;
+    background: rgb(103,58,183);
+    background: linear-gradient(0deg, rgba(103,58,183,1) 22%, rgba(82,45,168,0.9305847338935574) 82%, rgba(81,45,168,1) 99%);
+    color: #fff;
+    padding: 1px 10px;
+    font-size: 2rem;
+}
+
+#inputBtn:hover {
+    background: #8e5ee6;
+    transform: scale(1.2);
+    transition: all 1s ease
+}
+
+.plusSign{
+    position: relative;
+    bottom: 1px;
+}
+
+.taskItem{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 9px 16px;
+    margin: 15px 0px 5px;
+    background-color: #f8f8f8;
+    gap: 8px;
+}
+
+.tasks{
+    font-size: 1.223rem;
+    position: relative !important;
+    top: 5px !important;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    width: 315px;
+}
